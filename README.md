@@ -1,4 +1,4 @@
-![](images/EC_Logo_OnDark_Logo.png)
+![](images/EC_Logo_OnDark.png)
 
 # earlycode.com
 
