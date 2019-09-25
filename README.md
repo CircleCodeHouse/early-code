@@ -1,4 +1,4 @@
-![](images/CircleEducation_Logo.png)
+![](images/EC_Logo_OnDark.png)
 
 # earlycode.com
 
@@ -19,4 +19,4 @@
 
 ## Hosting
 
-1. Hosting on GitHub Pages via Cloudflare, currently at https://preview.circleeducation.com
+1. Hosting on GitHub Pages via Cloudflare, currently at https://preview.earlycode.com
