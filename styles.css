@@ -1,11 +1,17 @@
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 30pt;
+    font-style: bold;
 }
 
 h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14pt;
+  font-family: 'Poppins', light;
+  font-style: italic;
+  font-size: 23pt;
+} 
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14pt;
 }
 
 /*sets hover color of nav bar buttons*/
