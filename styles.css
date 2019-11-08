@@ -16,7 +16,7 @@ p {
 
 /*sets hover color of nav bar buttons*/
 .navbar-light .navbar-nav .nav-link:focus{
-    color: black;
+  color: black;
 }
 .navbar-dark .navbar-nav .nav-link:focus{
   color: #ffffff;
@@ -49,7 +49,7 @@ p {
 }
 
 .navbar-brand{
-    padding:0px;
+  padding:0px;
 }
 
 .ec-bg-blue{
@@ -64,11 +64,4 @@ p {
 .banner-link:hover{
   color: #f5ba4b;
   text-decoration: none;
-}
-
-/* keep height same as other static images */
-.parents-img {
-  height: 168.68px;
-  width: 272px;
-  object-fit: cover;
 }
