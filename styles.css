@@ -1,15 +1,15 @@
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 30pt;
-    font-style: bold;
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30pt;
+  font-style: bold;
 }
 
-h3{
+h3 {
   font-family: 'Poppins', light;
   font-style: italic;
   font-size: 23pt;
-} 
-p{
+}
+p {
   font-family: 'Poppins', sans-serif;
   font-size: 14pt;
 }
@@ -17,51 +17,58 @@ p{
 /*sets hover color of nav bar buttons*/
 .navbar-light .navbar-nav .nav-link:focus{
     color: black;
-  }
-  .navbar-dark .navbar-nav .nav-link:focus{
-    color: #ffffff;
-  }
-   .navbar-light .navbar-nav .nav-link:hover{
-    color: #50bbe6;
-  }
-  .navbar-dark .navbar-nav .nav-link:hover{
-    color: #50bbe6;
-  }
-  
-  
-  /* SWITCHES BETWEEN LOGOS */
-  .navbar-dark img[class*=light] {
-    display: none;
-  }
-  .navbar-light img[class*=light] {
-    display: default;
-  }
-  .navbar-light img[class*=dark] {
-    display: none;
-  }
-  .navbar-dark img[class*=dark] {
-    display: default;
-  }
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #50bbe6;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #50bbe6;
+}
+
+
+/* SWITCHES BETWEEN LOGOS */
+.navbar-dark img[class*=light] {
+  display: none;
+}
+.navbar-light img[class*=light] {
+  display: default;
+}
+.navbar-light img[class*=dark] {
+  display: none;
+}
+.navbar-dark img[class*=dark] {
+  display: default;
+}
 
 /*adjusts height of navbar logo*/
-  .navbar-brand img {
-    height: 60px;
-  }
+.navbar-brand img {
+  height: 60px;
+}
 
-  .navbar-brand{
-      padding:0px;
-  }
+.navbar-brand{
+    padding:0px;
+}
 
-  .ec-bg-blue{
-    background-color: #50bbe6;
-  }
+.ec-bg-blue{
+  background-color: #50bbe6;
+}
 
-  .banner-link{
-    font-size: 20px;
-    color: black;
-  }
+.banner-link{
+  font-size: 20px;
+  color: black;
+}
 
-  .banner-link:hover{
-    color: #f5ba4b;
-    text-decoration: none;
-  }
+.banner-link:hover{
+  color: #f5ba4b;
+  text-decoration: none;
+}
+
+/* keep height same as other static images */
+.parents-img {
+  height: 168.68px;
+  width: 272px;
+  object-fit: cover;
+}
