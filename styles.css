@@ -52,3 +52,16 @@ p{
       padding:0px;
   }
 
+  .ec-bg-blue{
+    background-color: #50bbe6;
+  }
+
+  .banner-link{
+    font-size: 20px;
+    color: black;
+  }
+
+  .banner-link:hover{
+    color: #f5ba4b;
+    text-decoration: none;
+  }
