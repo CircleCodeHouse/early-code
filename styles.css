@@ -1,45 +1,53 @@
+/* remove focus ouline on nav */
+button:focus {
+  outline: none;
+}
+
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30pt;
   font-style: bold;
 }
 
 h3 {
-  font-family: 'Poppins', light;
+  font-family: "Poppins", light;
   font-style: italic;
   font-size: 23pt;
 }
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14pt;
 }
 
+.nav-link {
+  float: right;
+  margin-left: 10px;
+}
 /*sets hover color of nav bar buttons*/
-.navbar-light .navbar-nav .nav-link:focus{
+.navbar-light .navbar-nav .nav-link:focus {
   color: black;
 }
-.navbar-dark .navbar-nav .nav-link:focus{
+.navbar-dark .navbar-nav .nav-link:focus {
   color: #ffffff;
 }
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
   color: #50bbe6;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #50bbe6;
 }
-
 
 /* SWITCHES BETWEEN LOGOS */
-.navbar-dark img[class*=light] {
+.navbar-dark img[class*="light"] {
   display: none;
 }
-.navbar-light img[class*=light] {
+.navbar-light img[class*="light"] {
   display: default;
 }
-.navbar-light img[class*=dark] {
+.navbar-light img[class*="dark"] {
   display: none;
 }
-.navbar-dark img[class*=dark] {
+.navbar-dark img[class*="dark"] {
   display: default;
 }
 
@@ -48,20 +56,28 @@ p {
   height: 60px;
 }
 
-.navbar-brand{
-  padding:0px;
+.navbar-brand {
+  padding: 0px;
 }
 
-.ec-bg-blue{
+.ec-bg-blue {
   background-color: #50bbe6;
 }
 
-.banner-link{
+.banner-link {
   font-size: 20px;
   color: black;
 }
 
-.banner-link:hover{
+.banner-link:hover {
   color: #f5ba4b;
   text-decoration: none;
+}
+
+/* Thank You Page */
+.center-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

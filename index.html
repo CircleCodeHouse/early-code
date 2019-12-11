@@ -1,455 +1,548 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- Favicons -->
-  <link rel="icon" sizes="32x32" type="image/png" href="/images/EC_Icon_OnDark.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/EC_Icon_OnDark.png">
-  <link rel="manifest" href="/images/EC_Icon_OnDark.png">
-  <link rel="mask-icon" href="/images/EC_Icon_OnDark.png">
-  <link rel="shortcut icon" href="/images/EC_Icon_OnDark.png">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="https://austindevs.github.io/incline/dist/assets/ico/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="/images/EC_Icon_OnDark.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/EC_Icon_OnDark.png"
+    />
+    <link rel="manifest" href="/images/EC_Icon_OnDark.png" />
+    <link rel="mask-icon" href="/images/EC_Icon_OnDark.png" />
+    <link rel="shortcut icon" href="/images/EC_Icon_OnDark.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="https://austindevs.github.io/incline/dist/assets/ico/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-  <!--google font-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!--google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/libs/flickity/dist/flickity.min.css">
-  <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/libs/flickity-fade/flickity-fade.css">
-  <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/dist/fullpage.min.css">
-  <link rel="stylesheet"
-    href="https://austindevs.github.io/incline/dist/assets/libs/highlightjs/styles/codepen-embed.css">
-  <link rel="stylesheet"
-    href="https://austindevs.github.io/incline/dist/assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/libs/incline-icons/style.min.css">
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/flickity/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/flickity-fade/flickity-fade.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/dist/fullpage.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/highlightjs/styles/codepen-embed.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/libs/incline-icons/style.min.css"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-  <!-- Theme CSS -->
-  <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/css/theme.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <title>Early Code</title>
-</head>
+    <!-- Theme CSS -->
+    <link
+      rel="stylesheet"
+      href="https://austindevs.github.io/incline/dist/assets/css/theme.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Early Code</title>
+  </head>
 
-<body>
-
-  <!-- NAVBAR
+  <body>
+    <!-- NAVBAR
     ================================================= -->
-  <nav class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top">
-    <div class="container">
+    <nav
+      class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top"
+    >
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/">
+          <img class="img-fluid light" src="./images/EC_Logo_OnWhite.png" />
+          <img class="img-fluid dark" src="./images/EC_Logo_OnDark.png" />
+        </a>
 
-      <!-- Brand -->
-      <a class="navbar-brand" href="/">
-        <img class="img-fluid light" src="./images/EC_Logo_OnWhite.png">
-        <img class="img-fluid dark" src="./images/EC_Logo_OnDark.png">
-      </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <!-- Links -->
-        <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item">
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item">
             <a href="/" class="nav-link">
               Lubbock
             </a>
           </li> -->
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">
-              Contact
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a href="/" class="nav-link">
-              Home
-            </a>
-          </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a href="/" class="nav-link">
+                Home
+              </a>
+            </li>
 
-          <!-- Team page to add at a later date -->
-          <!-- <li class="nav-item">
+            <!-- Team page to add at a later date -->
+            <!-- <li class="nav-item">
               <a href="team.html" class="nav-link">
                 Team
               </a>
             </li>     -->
-        </ul>
-      </div> <!-- / .navbar-collapse -->
-    </div> <!-- / .container -->
-  </nav>
+          </ul>
+        </div>
+        <!-- / .navbar-collapse -->
+      </div>
+      <!-- / .container -->
+    </nav>
 
-  <!-- HOME SECTION
+    <!-- HOME SECTION
     ================================================== -->
-  <section class="section section-top section-full">
+    <section class="section section-top section-full">
+      <!-- Cover -->
+      <div
+        class="bg-cover"
+        style="background-image: url('./images/early-code-header.jpg')"
+      ></div>
 
-    <!-- Cover -->
-    <div class="bg-cover" style="background-image: url('./images/early-code-header.jpg')">
-    </div>
+      <!-- Overlay -->
+      <div class="bg-overlay"></div>
 
-    <!-- Overlay -->
-    <div class="bg-overlay"></div>
+      <!-- Triangles -->
+      <div
+        class="bg-triangle bg-triangle-light bg-triangle-left bg-triangle-bottom"
+      ></div>
+      <div
+        class="bg-triangle bg-triangle-light bg-triangle-right bg-triangle-bottom"
+      ></div>
 
-    <!-- Triangles -->
-    <div class="bg-triangle bg-triangle-light bg-triangle-left bg-triangle-bottom"></div>
-    <div class="bg-triangle bg-triangle-light bg-triangle-right bg-triangle-bottom"></div>
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-md-8">
+            <!-- Preheading -->
+            <p
+              class="font-weight-medium text-center text-xs text-uppercase text-white text-muted"
+              data-toggle="animation"
+              data-animation="fadeUp"
+              data-animation-order="0"
+              data-animation-trigger="load"
+            >
+              <!-- by Simpleqode -->
+            </p>
 
-    <!-- Content -->
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-12 col-md-8">
-
-          <!-- Preheading -->
-          <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted" data-toggle="animation"
-            data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
-            <!-- by Simpleqode -->
-          </p>
-
-          <!-- Heading -->
-          <h1 class="text-center text-white mb-4 font-bold" data-toggle="animation" data-animation="fadeUp"
-            data-animation-order="1" data-animation-trigger="load">
-            Early Code
-          </h1>
-          <h3 class="text-center text-white mb-4 font-italic" data-toggle="animation" data-animation="fadeUp"
-            data-animation-order="1" data-animation-trigger="load">
-            We provide equal access to computer science and technology for students and schools K-12
-          </h3>
-          <!-- <h1 class="text-center text-white mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
+            <!-- Heading -->
+            <h1
+              class="text-center text-white mb-4 font-bold"
+              data-toggle="animation"
+              data-animation="fadeUp"
+              data-animation-order="1"
+              data-animation-trigger="load"
+            >
+              Early Code
+            </h1>
+            <h3
+              class="text-center text-white mb-4 font-italic"
+              data-toggle="animation"
+              data-animation="fadeUp"
+              data-animation-order="1"
+              data-animation-trigger="load"
+            >
+              We provide equal access to computer science and technology for
+              students and schools K-12
+            </h3>
+            <!-- <h1 class="text-center text-white mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
                 Education.
             </h1> -->
 
-          <!-- Button -->
-          <div class="text-center">
-            <a href="#contact" class="btn btn-outline-primary text-white my-2" data-toggle="animation"
-              data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-              Get in Touch
-            </a>
+            <!-- Button -->
+            <div class="text-center">
+              <a
+                href="#contact"
+                class="btn btn-outline-primary text-white my-2"
+                data-toggle="animation"
+                data-animation="fadeUp"
+                data-animation-order="3"
+                data-animation-trigger="load"
+              >
+                Get in Touch
+              </a>
+            </div>
           </div>
         </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-
-  </section>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
 
     <!-- FIFTIES
      ================================================== -->
 
     <section class="bg-light overflow-hidden">
-
       <!-- Content -->
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-12 col-md-6 section pb-0 py-md-0">
-
             <!-- Image -->
             <div class="img-half img-half-left">
-              <img src="./images/Stat1.png" alt="90% of parents say they want their child to study computer science" class="img-fluid">
+              <img
+                src="./images/Stat1.png"
+                alt="90% of parents say they want their child to study computer science"
+                class="img-fluid"
+              />
             </div>
-
           </div>
           <div class="col-12 col-md-6 col-xl-5 offset-xl-1 section">
-
             <!-- Heading -->
             <h3 class="mb-4">
-              But only <span class="text-primary">45%</span> of high schools teach computer science
+              But only <span class="text-primary">45%</span> of high schools
+              teach computer science
             </h3>
 
             <!-- Text -->
             <p>
-              Even fewer middle schools and elementary schools offer computer science classes, delaying students’ access to technical education during critical formative years.
+              Even fewer middle schools and elementary schools offer computer
+              science classes, delaying students’ access to technical education
+              during critical formative years.
             </p>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
     <section class="bg-light overflow-hidden">
-
       <!-- Content -->
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-12 col-md-6 offset-xl-1 order-md-2">
-
             <!-- Image -->
             <div class="img-half">
-              <img src="./images/Stat2.png" alt="Computing jobs are the #1 source of new wages in the U.S." class="img-fluid">
+              <img
+                src="./images/Stat2.png"
+                alt="Computing jobs are the #1 source of new wages in the U.S."
+                class="img-fluid"
+              />
             </div>
-
           </div>
           <div class="col-12 col-md-6 col-xl-5 order-md-1 section">
-
             <!-- Heading -->
             <h3 class="mb-4">
-              And <span class="text-primary">58%</span> of all new jobs in STEM are in computing
+              And <span class="text-primary">58%</span> of all new jobs in STEM
+              are in computing
             </h3>
 
             <!-- Text -->
             <p>
-              Over half of all new STEM jobs are in computing, and careers in software and web development are projected to grow by 23% through 2028 – more than 4 times the national average.
+              Over half of all new STEM jobs are in computing, and careers in
+              software and web development are projected to grow by 23% through
+              2028 – more than 4 times the national average.
             </p>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
     <section class="bg-light overflow-hidden mb-5">
-
       <!-- Content -->
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-12 col-md-6 section pb-0 py-md-0">
-
             <!-- Image -->
             <div class="img-half img-half-left">
-              <img src="./images/Stat3.png" alt="500,000 computing jobs in the U.S. and growing" class="img-fluid">
+              <img
+                src="./images/Stat3.png"
+                alt="500,000 computing jobs in the U.S. and growing"
+                class="img-fluid"
+              />
             </div>
-
           </div>
           <div class="col-12 col-md-6 col-xl-5 offset-xl-1 section">
-
             <!-- Heading -->
             <h3 class="mb-4">
-              But only <span class="text-primary">60,000</span> Computer Science majors entering the workforce
+              But only <span class="text-primary">60,000</span> Computer Science
+              majors entering the workforce
             </h3>
 
             <!-- Text -->
             <p>
-              65% of primary school students will work in jobs that do not exist today. Technology and automation are opening and creating new career opportunities, while jobs in other industries are being automated out.
+              65% of primary school students will work in jobs that do not exist
+              today. Technology and automation are opening and creating new
+              career opportunities, while jobs in other industries are being
+              automated out.
             </p>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
-
 
     <!-- SOLUTIONS SECTION
     ================================================== -->
     <div class="container" id="brands">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <!-- Heading -->
+          <h1 class="text-center mb-4">
+            Solution
+          </h1>
 
-            <!-- Heading -->
-            <h1 class="text-center mb-4">
-              Solution
-            </h1>
-
-            <!-- Subheading -->
-            <p class="text-muted text-center mb-5">
-              A Comprehensive Approach - Our kids need computer science skills to succeed in the digital economy. We partner with educators to make sure they get what they need.
-            </p>
-
-          </div>
-        </div> <!-- / .row -->
-        <div class="row">
-          <div class="col-md-4">
-
-            <!-- Card Start -->
-            <div class="card border-0 mb-3 mb-md-0">
-
-              <!-- Image -->
-              <div class="card-img-top shadow-lg">
-                <img src="./images/Public-Schools-final.png" alt="public schools image" class="img-fluid">
-              </div>
-
-              <!-- Body -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">
-                  Public Schools
-                </h4>
-
-                <!-- Body -->
-                <p class="card-text text-muted">
-                  We provide turnkey computer science education through afterschool and ‘in between the bell’ programs for rural and underserved public schools.
-                </p>
-
-              </div>
-
-            </div>
-            <!-- / Card End -->
-
-          </div>
-          <div class="col-md-4">
-
-            <!-- Card Start -->
-            <div class="card border-0 mb-3">
-
-              <!-- Image -->
-              <div class="card-img-top shadow-lg">
-                <img src="./images/Private-Schools-final.png" alt="private schools image" class="img-fluid">
-              </div>
-
-              <!-- Body -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">
-                  Private Schools
-                </h4>
-
-                <!-- Body -->
-                <p class="card-text text-muted">
-                  We deliver a la carte computer science, robotics and emerging technology programs to private schools.
-                </p>
-
-              </div>
-
-            </div>
-            <!-- Card End -->
-
-          </div>
-          <div class="col-md-4">
-
-            <!-- Card Start -->
-            <div class="card border-0 mb-3 mb-md-0">
-
-              <!-- Image -->
-              <div class="card-img-top">
-                <img src="./images/family-final.jpeg" alt="family image" class="img-fluid">
-              </div>
-
-              <!-- Body -->
-              <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title">
-                  Parents
-                </h4>
-
-                <!-- Body -->
-                <p class="card-text text-muted">
-                  We host summer camps to accelerate students’ computer science, entrepreneurship, and teamwork skills.
-                </p>
-
-              </div>
-
-            </div>
-            <!-- Card End -->
-
-          </div>
-        </div> <!-- / .row -->
+          <!-- Subheading -->
+          <p class="text-muted text-center mb-5">
+            A Comprehensive Approach - Our kids need computer science skills to
+            succeed in the digital economy. We partner with educators to make
+            sure they get what they need.
+          </p>
+        </div>
       </div>
+      <!-- / .row -->
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Card Start -->
+          <div class="card border-0 mb-3 mb-md-0">
+            <!-- Image -->
+            <div class="card-img-top shadow-lg">
+              <img
+                src="./images/Public-Schools-final.png"
+                alt="public schools image"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+              <!-- Title -->
+              <h4 class="card-title">
+                Public Schools
+              </h4>
+
+              <!-- Body -->
+              <p class="card-text text-muted">
+                We provide turnkey computer science education through
+                afterschool and ‘in between the bell’ programs for rural and
+                underserved public schools.
+              </p>
+            </div>
+          </div>
+          <!-- / Card End -->
+        </div>
+        <div class="col-md-4">
+          <!-- Card Start -->
+          <div class="card border-0 mb-3">
+            <!-- Image -->
+            <div class="card-img-top shadow-lg">
+              <img
+                src="./images/Private-Schools-final.png"
+                alt="private schools image"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+              <!-- Title -->
+              <h4 class="card-title">
+                Private Schools
+              </h4>
+
+              <!-- Body -->
+              <p class="card-text text-muted">
+                We deliver a la carte computer science, robotics and emerging
+                technology programs to private schools.
+              </p>
+            </div>
+          </div>
+          <!-- Card End -->
+        </div>
+        <div class="col-md-4">
+          <!-- Card Start -->
+          <div class="card border-0 mb-3 mb-md-0">
+            <!-- Image -->
+            <div class="card-img-top">
+              <img
+                src="./images/family-final.jpeg"
+                alt="family image"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+              <!-- Title -->
+              <h4 class="card-title">
+                Parents
+              </h4>
+
+              <!-- Body -->
+              <p class="card-text text-muted">
+                We host summer camps to accelerate students’ computer science,
+                entrepreneurship, and teamwork skills.
+              </p>
+            </div>
+          </div>
+          <!-- Card End -->
+        </div>
+      </div>
+      <!-- / .row -->
+    </div>
 
     <!-- CONTACT SECTION
       ================================================== -->
-  <section class="section" id="contact">
+    <section class="section" id="contact">
+      <!-- Line -->
 
-    <!-- Line -->
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <!-- Heading -->
+            <h2 class="mb-4 text-center">
+              Contact Early Code
+            </h2>
 
-    <!-- Content -->
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6">
-
-          <!-- Heading -->
-          <h2 class="mb-4 text-center">
-            Contact Early Code
-          </h2>
-
-          <!-- Subheading -->
-          <p id="opening" class="mb-5 text-center text-muted">
-            Interested in learning more about Early Code or getting involved? Reach out to us and we’ll be in
-            touch with you shortly.
-          </p>
-
+            <!-- Subheading -->
+            <p id="opening" class="mb-5 text-center text-muted">
+              Interested in learning more about Early Code or getting involved?
+              Reach out to us and we’ll be in touch with you shortly.
+            </p>
+          </div>
         </div>
-      </div> <!-- / .row -->
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10">
+        <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <!-- Form -->
+            <form
+              onsubmit="return submitForm();"
+              id="contact-form"
+              action="https://forms.hubspot.com/uploads/form/v2/4009818/c10b38ad-b163-4b89-b3c7-79db99d6e9b5/"
+              method="POST"
+            >
+              <div class="col-12 flex-wrap mb-5 body-text">
+                <div class="row flex-wrap flex-sm-nowrap">
+                  <div class="form-group col-12 col-sm-6">
+                    <label>First Name</label>
+                    <input name="firstname" type="text" class="form-control" />
+                  </div>
 
-          <!-- Form -->
-          <form action="https://forms.hubspot.com/uploads/form/v2/4009818/aec27aa6-8e5c-4fbc-9e46-823f40fd69a7"
-            method="POST" target="_top">
-            <div class="col-12 flex-wrap mb-5 body-text">
-              <div class="row flex-wrap flex-sm-nowrap">
-                <div class="form-group col-12 col-sm-6">
-                  <label>First Name</label>
-                  <input name="firstname" type="text" class="form-control">
+                  <div class="form-group col-12 col-sm-6">
+                    <label>Last Name</label>
+                    <input name="lastname" type="text" class="form-control" />
+                  </div>
                 </div>
 
-                <div class="form-group col-12 col-sm-6">
-                  <label>Last Name</label>
-                  <input name="lastname" type="text" class="form-control">
+                <div class="row flex-wrap flex-sm-nowrap">
+                  <div class="form-group mb-md-0 col-12 col-sm-6">
+                    <label>Email</label>
+                    <input name="email" type="email" class="form-control" />
+                  </div>
+
+                  <div class="form-group col-12 col-sm-6">
+                    <label>Phone Number</label>
+                    <input name="phone" type="text" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="form-group col-12 mb-0 px-0">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
                 </div>
               </div>
+              <!-- / .row -->
 
-              <div class="row flex-wrap flex-sm-nowrap">
-                <div class="form-group mb-md-0 col-12 col-sm-6">
-                  <label>Email</label>
-                  <input name="email" type="email" class="form-control">
+              <div class="row">
+                <div class="col-auto ml-3">
+                  <!-- Submit -->
+                  <input
+                    type="sumit"
+                    value="Send"
+                    class="btn btn-outline-primary float-left ml-2"
+                  />
                 </div>
-
-                <div class="form-group col-12 col-sm-6">
-                  <label>Phone Number</label>
-                  <input name="phone" type="text" class="form-control">
-                </div>
               </div>
-
-              <div class="form-group col-12 mb-0 px-0">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-
-            </div> <!-- / .row -->
-
-            <div class="row">
-              <div class="col-auto ml-3">
-
-                <!-- Submit -->
-                <button type="submit" class="btn btn-outline-primary float-left ml-2">
-                  Send
-                </button>
-
-              </div>
-            </div> <!-- / .row -->
-          </form>
-
+              <!-- / .row -->
+            </form>
+          </div>
         </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
 
-  </section>
-
-  <!-- FOOTER
+    <!-- FOOTER
       ================================================== -->
-  <footer class="section bg-dark">
+    <footer class="section bg-dark">
+      <!-- Triangles -->
+      <div
+        class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"
+      ></div>
+      <div
+        class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"
+      ></div>
 
-    <!-- Triangles -->
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
-
-    <!--Content -->
-    <div class="container">
-      <div class="row align-self-center">
-        <div class="col-md-auto">
-
-          <!-- Brand -->
-          <p>
-            <a href="#" class="footer-brand text-white">
-              Early Code
-            </a>
-          </p>
-
-        </div>
-        <div class="col-md">
-
-          <!-- Links -->
-          <ul class="list-unstyled list-inline text-md-right footer">
-            <!--
+      <!--Content -->
+      <div class="container">
+        <div class="row align-self-center">
+          <div class="col-md-auto">
+            <!-- Brand -->
+            <p>
+              <a href="#" class="footer-brand text-white">
+                Early Code
+              </a>
+            </p>
+          </div>
+          <div class="col-md">
+            <!-- Links -->
+            <ul class="list-unstyled list-inline text-md-right footer">
+              <!--
                 <li class="list-inline-item mr-2">
                   <a href="#" class="text-white">
                     Terms and conditions
@@ -461,74 +554,92 @@
                   </a>
                 </li>
                 -->
-            <li class="list-inline-item">
-              <a href="#contact" class="footer-brand text-white">
-                Contact us
-              </a>
-            </li>
-          </ul>
-
+              <li class="list-inline-item">
+                <a href="#contact" class="footer-brand text-white">
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div> <!-- / .row -->
-      <div class="row align-items-center">
-        <div class="col-md">
-
-          <!-- Copyright -->
-          <p class="text-white text-muted">
-            <small>
-              &copy; Copyright <span class="current-year"></span> Early Code. All rights reserved.
-            </small>
-          </p>
-
+        <!-- / .row -->
+        <div class="row align-items-center">
+          <div class="col-md">
+            <!-- Copyright -->
+            <p class="text-white text-muted">
+              <small>
+                &copy; Copyright <span class="current-year"></span> Early Code.
+                All rights reserved.
+              </small>
+            </p>
+          </div>
+          <div class="col-md">
+            <!-- Social links -->
+            <ul class="list-inline list-unstyled text-md-right">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com/circleeducation/"
+                  target="_blank"
+                  rel="noopener"
+                  noreferrer”
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item ml-3">
+                <a
+                  href="https://twitter.com/CirlceEducation"
+                  target="_blank"
+                  rel="noopener"
+                  noreferrer”
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item ml-3">
+                <a
+                  href="https://www.instagram.com/circleeducation_/"
+                  target="_blank"
+                  rel="noopener"
+                  noreferrer”
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md">
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </footer>
 
-          <!-- Social links -->
-          <ul class="list-inline list-unstyled text-md-right">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/circleeducation/" target=”_blank” rel=”noopener noreferrer”>
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item ml-3">
-              <a href="https://twitter.com/CirlceEducation" target=”_blank” rel=”noopener noreferrer”>
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item ml-3">
-              <a href="https://www.instagram.com/circleeducation_/" target=”_blank” rel=”noopener noreferrer”>
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-
-  </footer>
-
-  <!-- JAVASCRIPT
+    <!-- JAVASCRIPT
     ================================================== -->
-  <!-- Global JS -->
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/jquery/dist/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- Global JS -->
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-  <!-- Plugins JS -->
-  <script
-    src="https://austindevs.github.io/incline/dist/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/flickity-fade/flickity-fade.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/jquery-parallax.js/parallax.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
-  <script
-    src="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/dist/fullpage.min.js"></script>
-  <script src="https://austindevs.github.io/incline/dist/assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/jquery-parallax.js/parallax.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="https://austindevs.github.io/incline/dist/assets/libs/highlightjs/highlight.pack.min.js"></script>
 
-  <!-- Theme JS -->
-  <script src="https://austindevs.github.io/incline/dist/assets/js/theme.min.js"></script>
-
-</body>
+    <!-- Theme JS -->
+    <script src="https://austindevs.github.io/incline/dist/assets/js/theme.min.js"></script>
+    <script>
+      function submitForm() {
+        const form = document.querySelector("#contact-form");
+        form.submit();
+        form.reset();
+        return false;
+      }
+    </script>
+  </body>
 </html>
